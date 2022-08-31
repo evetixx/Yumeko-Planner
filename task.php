@@ -26,9 +26,9 @@ $data=$_GET["hari"];
 </head>
 <body>
         <section class="container">
-            <div class="tile"><?= $_GET["task"];?></div>
-            <div class="tile"><?= $_GET["task1"];?></div>
-            <div class="tile"><?= $_GET["task2"];?></div>
+            <div class="tile"><p style = "color:white"><?= $_GET["task"];?></div></p>
+            <div class="tile"><p style = "color:white"><?= $_GET["task1"];?></div></p>
+            <div class="tile"><p style = "color:white"><?= $_GET["task2"];?></div></p>
             <div class="tile"></div>
             <div class="tile"></div>
             <div class="tile"></div>
