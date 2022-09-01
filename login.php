@@ -17,10 +17,15 @@
                         exit;
                 } else {
                         /*Unsuccessful attempt: Set error message */
-                        $msg="<span style='color:red'>Invalid Login Details</span>";
+                        $msg="<span style='title'>Invalid Login Details</span>";
                 }
         }
+        if(isset($_SESSION['UserData']['Username'])){
+          header("location:index.php");
+          exit;
+  }
 ?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -30,17 +35,18 @@
 
 </head>
 <body>
-<div class="login-form">
+  <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+  </div>
   <form action="" method="post">
     <h1>Login</h1>
     <div class="content">
       <div class="input-field">
-        <label for="Username">Username : </label>
-        <input type="text" name="Username" id="Username">
+        <input type="text" name="Username" id="Username"placeholder="Username">
       </div>
       <div class="input-field">
-        <label for="Password">Password </label>
-        <input type="password" name="Password" id="Password">
+        <input type="password" name="Password" id="Password" placeholder="Password">
       </div>
     </div>
     <div class="action">

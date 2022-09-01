@@ -32,16 +32,9 @@ $data=$_GET["hari"];
             <div class="tile"></div>
             <div class="tile"></div>
             <div class="tile"></div>
-            <div class="tile"></div>
+            <div class="tile"><a href="index.php">Back</a></div>
         </section>
         <ul>
-        <?php foreach ($dailytask as $data ) : ?> 
-        <ul>
-            <li>
-                <a href="task.php?hari=<?= $data["hari"];?>"><?= $data["hari"];?>
-            </li>
-        </ul>
-    <?php endforeach; ?>
         </ul>
 </body>
 </html>

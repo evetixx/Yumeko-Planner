@@ -59,4 +59,4 @@ $dailytask = [
 
 </body>
 </html>
-<a href="logout.php">Click here</a> to Logout.
+<a href="logout.php">logout</a>
