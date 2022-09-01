@@ -17,7 +17,9 @@
                         exit;
                 } else {
                         /*Unsuccessful attempt: Set error message */
-                        $msg="<span style='title'>Invalid Login Details</span>";
+                        echo '<script language="javascript">';
+                        echo 'alert("Wrong Password")';
+                        echo '</script>';
                 }
         }
         if(isset($_SESSION['UserData']['Username'])){

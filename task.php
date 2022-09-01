@@ -25,11 +25,14 @@ $data=$_GET["hari"];
 
 </head>
 <body>
+<section class = "title">
+        <h1>Daftar Tugas</h1>
+    </section>
         <section class="container">
             <div class="tile"><p style = "color:white"><?= $_GET["task"];?></div></p>
             <div class="tile"><p style = "color:white"><?= $_GET["task1"];?></div></p>
             <div class="tile"><p style = "color:white"><?= $_GET["task2"];?></div></p>
-            <div class="tile"></div>
+            <div class="tile"></div></p>
             <div class="tile"></div>
             <div class="tile"></div>
             <div class="tile"><a href="index.php">Back</a></div>

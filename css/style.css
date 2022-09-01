@@ -6,6 +6,7 @@
   font-family: 'Comic Sans', cursive;
   
 }
+
 a {
     color: white;
     text-decoration: none; /* no underline */
@@ -19,7 +20,8 @@ body {
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .display {
@@ -124,4 +126,10 @@ button{
     align-items: center;
     font-size: 50px;
     cursor: pointer;
+}
+.logoutLblPos{
+  position:fixed;
+  font-family: 'Arial';
+  right:10px;
+  top:5px;
 }
